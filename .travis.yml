@@ -13,7 +13,7 @@ deploy:
   skip_cleanup: true
   on: &2
     repo: kjonathante/Express-Minimal-Template
-  bucket: TravisTestApp
+  bucket: travistestapp
   region: us-west-1
 - provider: codedeploy
   access_key_id: $AWS_ACCESS_KEY
