@@ -12,3 +12,5 @@ app.get('/', function(req, res){
 var server = app.listen(3000, function() {
   console.log('Server running on ', server.address())
 })
+
+module.exports = server
